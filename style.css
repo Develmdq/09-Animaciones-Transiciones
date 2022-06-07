@@ -1,0 +1,29 @@
+html {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  min-height: 100vh;
+  padding: 0px;
+}
+
+.btn-modern {
+  background: orange;
+  border: none;
+  border-bottom: 2px solid rgb(201, 131, 2);
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 30px;
+  text-shadow: 1px 1px 1px rgb(31, 31, 31);
+  transition: all 0.4s cubic-bezier(0, 0.39, 0.22, 0.44);
+}
+
+.btn-modern:hover {
+  background: rgb(255, 208, 0);
+  box-shadow: 0 5px 5px rgba(31, 31, 31, 0.5);
+  color: rgb(170, 111, 1);
+  transform: translateY(-5px);
+}
